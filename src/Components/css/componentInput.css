@@ -1,0 +1,54 @@
+.headerInput {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+}
+
+.inputContainer {
+  grid-column: 2;
+  display: flex;
+  box-sizing: content-box;
+  align-items: center;
+}
+
+.mainInput {
+  width: 70%;
+  margin-left: 20%;
+}
+
+/* .search {
+
+} */
+
+.cartContainer {
+  grid-column: 3;
+  grid-row: 1;
+  display: flex;
+}
+
+.cart {
+  font-size: 40px;
+}
+
+.counter {
+  position: fixed;
+  top: -1.2%;
+  right: 12.2%;
+  font-weight: bold;
+}
+
+.mainText {
+  grid-row: 2;
+  grid-column: 1 / span 3;
+  text-align: center;
+}
+
+.inputMainContent {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.category {
+  border: 1px solid black;
+}
